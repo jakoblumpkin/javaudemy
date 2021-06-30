@@ -35,7 +35,15 @@ public class mainFile {
 		someString.endsWith("again");
 		someString.isEmpty();
 		"true".equals("true");
-		System.out.println("True".equalsIgnoreCase("trUe"));
+		"True".equalsIgnoreCase("trUe");
+		
+		//aaddd two strings together
+		
+		someString.concat(" .");
+		
+		String str2 = "   in28minutes is aewsome  ";
+		System.out.println(str2.trim().toUpperCase());
+		
 		
 	}
 }

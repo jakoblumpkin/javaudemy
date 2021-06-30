@@ -14,7 +14,28 @@ public class mainFile {
 		cleanCode.removeBook(50);
 		
 		WhileNumberPlayer jakob = new WhileNumberPlayer(10);
-		jakob.printSquaresUptoLimit();
-		jakob.printCubesUptoLimit();
+		//jakob.printSquaresUptoLimit();
+		//jakob.printCubesUptoLimit();
+		
+		//String Excercise -------------
+		
+		String someString = "This is a lot of text again";
+		
+		for (int h = 0; h < someString.length(); h++) {
+		     System.out.println(someString.charAt(h));
+		}
+		
+		//Methods for strings
+		someString.indexOf("lot");
+		someString.lastIndexOf('i');
+		
+		//true of false methods
+		someString.contains("text");
+		someString.startsWith("This");
+		someString.endsWith("again");
+		someString.isEmpty();
+		"true".equals("true");
+		System.out.println("True".equalsIgnoreCase("trUe"));
+		
 	}
 }

@@ -43,6 +43,9 @@ public class mainFile {
 		
 		String str2 = "   in28minutes is aewsome  ";
 		System.out.println(str2.trim().toUpperCase());
+		str2.toLowerCase();
+		
+		System.out.println("abcd".replace("ab", "xyz"));
 		
 		
 	}

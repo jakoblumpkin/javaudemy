@@ -47,6 +47,8 @@ public class mainFile {
 		
 		System.out.println("abcd".replace("ab", "xyz"));
 		
+		System.out.println("abcd".setCharAt(1, "p"));
+		
 		
 	}
 }

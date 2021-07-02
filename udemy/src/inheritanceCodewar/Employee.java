@@ -1,4 +1,4 @@
-package inheritance;
+package inheritanceCodewar;
 
 public class Employee extends Person{
      private String title;

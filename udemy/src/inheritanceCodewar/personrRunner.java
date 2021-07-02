@@ -1,8 +1,11 @@
-package inheritance;
+package inheritanceCodewar;
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
-///Code war challenge
+import java.util.Set;
 
+///Code war challenge
+//https://www.codewars.com/kata/60908bc1d5811f0025474291/train/java
 public class personrRunner {
 
 	public static String findSquares(int n){
@@ -28,7 +31,13 @@ public class personrRunner {
 		Employee jakob = new Employee("blue", "IBM", "AA", "40,000");
 		
 		
-		System.out.println(findSquares(32));
+		//System.out.println(findSquares(32));
+		
+		//Convert list to LinkedHashSet
+		List<Character> characters = List.of('A', 'Z', 'A', 'B', 'Z', 'F');
+		
+		Set<Character> Result = new LinkedHashSet<Character>(characters);
+		System.out.println(Result);
 	}
 
 }

@@ -1,4 +1,4 @@
-package inheritance;
+package inheritanceCodewar;
 
 public class Person {
     public String name;

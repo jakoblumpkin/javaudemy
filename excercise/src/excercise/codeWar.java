@@ -19,7 +19,7 @@ public class codeWar {
 	      double total = number * number;
 	       if (total == (double) i) {
 	    	   System.out.println(i);
-	          }
+	           }
 		     }
 		  } else {
 			  return -1;

@@ -1,13 +1,13 @@
 package codeWars;
-
+//https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0/train/java
 import java.util.ArrayList;
 
 public class challenge1 {
     
-	public static void solve(String[] arr){
+	public static int[] solve(String[] arr){
         String alphabet = "abcdefghijklmnopqrstuvwxyz";
         
-        ArrayList<Integer> finalA = new ArrayList<>();
+        int[] finalA = new int[arr.length];
         
 		for(String group: arr) {
 			group = group.toLowerCase();
@@ -19,9 +19,10 @@ public class challenge1 {
 			    	count ++;
 			    }
 			}
-			finalA.add(count);
-			System.out.println(finalA);
+			finalA[i](count);
 		}
+		
+		return finalA;
 
     }
 	public static void main(String[] args) {

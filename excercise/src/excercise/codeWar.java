@@ -18,9 +18,9 @@ public class codeWar {
 		  double number = Math.floor(Math.sqrt((double) i));
 	      double total = number * number;
 	       if (total == (double) i) {
-	    	   return i;
-	       }
-		  }
+	    	   System.out.println(i);
+	          }
+		     }
 		  } else {
 			  return -1;
 		  }

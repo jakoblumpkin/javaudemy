@@ -12,6 +12,7 @@ public class mapRunner {
 		Map<Character, Integer> occurances = new HashMap<>();
 		
 		char[] characters = str.toCharArray();
+		System.out.println("Characters: " + characters[0]);
 		for(char character: characters) {
 			Integer integer = occurances.get(character);
 			if(integer == null) {

@@ -1,6 +1,5 @@
 package codeWars;
 //https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0/train/java
-import java.util.ArrayList;
 
 public class challenge1 {
     
@@ -9,8 +8,9 @@ public class challenge1 {
         
         int[] finalA = new int[arr.length];
         
-		for(String group: arr) {
-			group = group.toLowerCase();
+        
+        for (int j = 0; j < arr.length; j++) {
+			String group = arr[j].toLowerCase();
 			int count = 0;
 			for (int i = 0; i < group.length(); i++) {
 			    char char1 = group.charAt(i);
@@ -19,14 +19,14 @@ public class challenge1 {
 			    	count ++;
 			    }
 			}
-			finalA[i](count);
+			finalA[j] = count;
 		}
 		
 		return finalA;
 
     }
 	public static void main(String[] args) {
-		solve(new String[]{"abode","ABc","xyzD"});
+		System.out.println(solve(new String[]{"abode","ABc","xyzD"}));
 	}
 
 }
